@@ -49,7 +49,7 @@ lean to help this process flow quicker.
 #### Workflow
 
 1. Setup your repository
-  * `git clone git@sqbu-github.cisco.com:WebExSquared/wx2-admin-web-client.git`
+  * `git clone  https://github.com/stonedpebbles/inventory-check.git`
   * `origin` should be the above WebExSquared repo (`git remote -v` to see remote details)
 2. Run the application
   * `npm install` to install project dependencies
