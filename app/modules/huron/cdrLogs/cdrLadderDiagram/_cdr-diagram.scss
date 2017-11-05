@@ -1,54 +1,54 @@
-.cdr-diagram {
-  .spinner-position {
-    position: relative;
-    top: rem-calc(250);
-    width: 100%;
+// .cdr-diagram {
+//   .spinner-position {
+//     position: relative;
+//     top: rem-calc(250);
+//     width: 100%;
 
-    .icon-2x {
-      font-size: 4em;
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-  }
+//     .icon-2x {
+//       font-size: 4em;
+//       position: absolute;
+//       left: 50%;
+//       transform: translate(-50%, -50%);
+//     }
+//   }
 
-  .icon {
-    @include vr-spacing(mt, 0.2, 0.5px, true);
+//   .icon {
+//     @include vr-spacing(mt, 0.2, 0.5px, true);
 
-    &.icon-download {
-      @include vr-spacing(mr, 0.5);
-    }
-  }
+//     &.icon-download {
+//       @include vr-spacing(mr, 0.5);
+//     }
+//   }
 
-  [id='filterDropdown'] {
-    @include vr-spacing(ml, 1, 1px);
-  }
+//   [id='filterDropdown'] {
+//     @include vr-spacing(ml, 1, 1px);
+//   }
 
-  .download {
-    @include vr-spacing(pv, 1);
-  }
+//   .download {
+//     @include vr-spacing(pv, 1);
+//   }
 
-  .flow-filter {
-    @include vr-spacing(pt, 0.25);
-  }
+//   .flow-filter {
+//     @include vr-spacing(pt, 0.25);
+//   }
 
-  .options {
-    @include vr-spacing(pb, 0.75, -2px);
+//   .options {
+//     @include vr-spacing(pb, 0.75, -2px);
 
-    &:first-child {
-      @include vr-spacing(pb, 1);
-    }
-  }
+//     &:first-child {
+//       @include vr-spacing(pb, 1);
+//     }
+//   }
 
-  .diagram {
-    overflow: auto;
-  }
+//   .diagram {
+//     overflow: auto;
+//   }
 
-  .item-pad {
-    @include vr-spacing(pl, 1.5);
-  }
+//   .item-pad {
+//     @include vr-spacing(pl, 1.5);
+//   }
 
-  .filter-label {
-    @include vr-spacing(pl, 0.5);
-  }
-}
+//   .filter-label {
+//     @include vr-spacing(pl, 0.5);
+//   }
+// }

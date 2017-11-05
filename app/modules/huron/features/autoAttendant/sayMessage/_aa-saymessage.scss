@@ -1,27 +1,27 @@
-.aa-message-panel {
-  width: 100%;
+// .aa-message-panel {
+//   width: 100%;
 
-  @include vr-spacing(mb, 1);
-  @include vr-spacing(mt, 1);
+//   @include vr-spacing(mb, 1);
+//   @include vr-spacing(mt, 1);
 
-  .aa-message-textarea {
-    @include vr-spacing(mb, 1);
-    @include vr-spacing(pt, 0.75);
-    @include vr-spacing(pb, 0.75);
-    @include vr-spacing(pl, 0.75);
-    @include vr-spacing(pr, 0.75);
+//   .aa-message-textarea {
+//     @include vr-spacing(mb, 1);
+//     @include vr-spacing(pt, 0.75);
+//     @include vr-spacing(pb, 0.75);
+//     @include vr-spacing(pl, 0.75);
+//     @include vr-spacing(pr, 0.75);
 
-    line-height: 1.25rem;
-    resize: none;
-  }
+//     line-height: 1.25rem;
+//     resize: none;
+//   }
 
-  .aa-message-footer {
-    color: $gray-base;
-    white-space: nowrap;
-  }
-}
+//   .aa-message-footer {
+//     color: $gray-base;
+//     white-space: nowrap;
+//   }
+// }
 
-.aa-message-panel-input-only {
-  @extend .aa-message-panel;
-  @include vr-spacing(mt, 0);
-}
+// .aa-message-panel-input-only {
+//   @extend .aa-message-panel;
+//   @include vr-spacing(mt, 0);
+// }

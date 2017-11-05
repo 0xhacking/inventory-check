@@ -1,211 +1,211 @@
-@import 'styles/toolkit/colors';
-@import 'styles/toolkit/spacing';
+// @import 'styles/toolkit/colors';
+// @import 'styles/toolkit/spacing';
 
-.form-inline .choose-file {
-  margin-bottom: 2px;
-}
+// .form-inline .choose-file {
+//   margin-bottom: 2px;
+// }
 
-.enterprise-settings {
-  .file-drop {
-    border: 1px dashed $gray-light;
+// .enterprise-settings {
+//   .file-drop {
+//     border: 1px dashed $gray-light;
 
-    @include vr-spacing(pt, 2);
-    @include vr-spacing(ph, 2);
-    @include vr-spacing(pb, 1);
+//     @include vr-spacing(pt, 2);
+//     @include vr-spacing(ph, 2);
+//     @include vr-spacing(pb, 1);
 
-    &.dragover {
-      border-color: $link-hover-color;
-      background: $gray-lightest;
-    }
+//     &.dragover {
+//       border-color: $link-hover-color;
+//       background: $gray-lightest;
+//     }
 
-    .sso-container {
-      @include vr-spacing(mt, 0);
-      @include vr-spacing(mb, 1);
-    }
+//     .sso-container {
+//       @include vr-spacing(mt, 0);
+//       @include vr-spacing(mb, 1);
+//     }
 
-    label {
-      cursor: pointer;
-      color: $link-color;
-      display: inline;
+//     label {
+//       cursor: pointer;
+//       color: $link-color;
+//       display: inline;
 
-      &:hover {
-        color: $link-hover-color;
-      }
-    }
-  }
+//       &:hover {
+//         color: $link-hover-color;
+//       }
+//     }
+//   }
 
-  .file-drop-inactive {
-    @extend .file-drop;
+//   .file-drop-inactive {
+//     @extend .file-drop;
 
-    border: 1px solid $gray-light;
-  }
+//     border: 1px solid $gray-light;
+//   }
 
-  input {
-    display: none;
-  }
-}
+//   input {
+//     display: none;
+//   }
+// }
 
-//PMR on M2 Setup
+// //PMR on M2 Setup
 
-.enterprise-pmr-setup {
-  #pmrSiteNameSetupTitle {
-    margin-bottom: 1.5rem;
-  }
+// .enterprise-pmr-setup {
+//   #pmrSiteNameSetupTitle {
+//     margin-bottom: 1.5rem;
+//   }
 
-  .paragraphSpacing {
-    margin-bottom: 1rem;
-  }
+//   .paragraphSpacing {
+//     margin-bottom: 1rem;
+//   }
 
-  .space-flow {
-    margin-bottom: 2.2rem;
-  }
+//   .space-flow {
+//     margin-bottom: 2.2rem;
+//   }
 
-  .url-domain-font {
-    font-size: 1.25rem;
-  }
+//   .url-domain-font {
+//     font-size: 1.25rem;
+//   }
 
-  .url-domain-padding {
-    padding-top: 8px;
-  }
+//   .url-domain-padding {
+//     padding-top: 8px;
+//   }
 
-  .help-button-color {
-    color: $color-primary-base;
-  }
-}
+//   .help-button-color {
+//     color: $color-primary-base;
+//   }
+// }
 
-// Enterprise Sip Domain
+// // Enterprise Sip Domain
 
-.enterprise-sipDomain-page {
-  #sipDomainTitle {
-    margin-bottom: 1.5rem;
-  }
+// .enterprise-sipDomain-page {
+//   #sipDomainTitle {
+//     margin-bottom: 1.5rem;
+//   }
 
-  .btn-space {
-    margin-left: 0.7rem;
-  }
+//   .btn-space {
+//     margin-left: 0.7rem;
+//   }
 
-  .space {
-    margin-left: 1rem;
-  }
+//   .space {
+//     margin-left: 1rem;
+//   }
 
-  .space-flow {
-    margin-bottom: 2.2rem;
-  }
+//   .space-flow {
+//     margin-bottom: 2.2rem;
+//   }
 
-  .url-examples-style {
-    margin-bottom: 1rem;
-  }
+//   .url-examples-style {
+//     margin-bottom: 1rem;
+//   }
 
-  .sip-domain-input {
-    margin-bottom: 2.2rem;
-  }
+//   .sip-domain-input {
+//     margin-bottom: 2.2rem;
+//   }
 
-  .inline {
-    float: left;
-  }
+//   .inline {
+//     float: left;
+//   }
 
-  .domain-check-space {
-    clear: both;
-  }
+//   .domain-check-space {
+//     clear: both;
+//   }
 
-  .red-error-icon {
-    color: red;
-  }
+//   .red-error-icon {
+//     color: red;
+//   }
 
-  .green-check {
-    color: green;
-  }
+//   .green-check {
+//     color: green;
+//   }
 
-  .error-msg-spacing {
-    margin-top: -2rem;
-  }
+//   .error-msg-spacing {
+//     margin-top: -2rem;
+//   }
 
-  .confirm-box {
-    margin-top: 2rem;
-  }
+//   .confirm-box {
+//     margin-top: 2rem;
+//   }
 
-  .save-box {
-    min-height: 2.5rem;
-    position: relative;
+//   .save-box {
+//     min-height: 2.5rem;
+//     position: relative;
 
-    button {
-      position: absolute;
-      right: 1rem;
-    }
-  }
+//     button {
+//       position: absolute;
+//       right: 1rem;
+//     }
+//   }
 
-  .font-regular {
-    font-size: 1rem;
-  }
+//   .font-regular {
+//     font-size: 1rem;
+//   }
 
-  .paragraphSpacing {
-    margin-bottom: 1rem;
-  }
+//   .paragraphSpacing {
+//     margin-bottom: 1rem;
+//   }
 
-  .redirect-link {
-    font-size: 0.8rem;
-  }
-}
+//   .redirect-link {
+//     font-size: 0.8rem;
+//   }
+// }
 
-// SSO
+// // SSO
 
-.sso-container {
-  margin: 2rem auto;
-  max-width: rem-calc(592);
-  text-align: center;
+// .sso-container {
+//   margin: 2rem auto;
+//   max-width: rem-calc(592);
+//   text-align: center;
 
-  .btn.btn--people {
-    @include vr-spacing(mt, 0.5);
-  }
+//   .btn.btn--people {
+//     @include vr-spacing(mt, 0.5);
+//   }
 
-  .icon {
-    font-size: 7rem;
-    margin-bottom: 2rem;
-    display: block;
-  }
-}
+//   .icon {
+//     font-size: 7rem;
+//     margin-bottom: 2rem;
+//     display: block;
+//   }
+// }
 
-.signingMetaDiv {
-  @extend .sso-container;
+// .signingMetaDiv {
+//   @extend .sso-container;
 
-  @include vr-spacing(mt, 2);
+//   @include vr-spacing(mt, 2);
 
-  max-width: rem-calc(528);
+//   max-width: rem-calc(528);
 
-  .SSOSelfSigned {
-    text-align: left;
-  }
-}
+//   .SSOSelfSigned {
+//     text-align: left;
+//   }
+// }
 
-.ftwConfigSSO {
-  margin-top: 1rem;
-}
+// .ftwConfigSSO {
+//   margin-top: 1rem;
+// }
 
-.sso-status-block {
-  border-top: 1px solid $gray-light-2;
+// .sso-status-block {
+//   border-top: 1px solid $gray-light-2;
 
-  ul {
-    margin: 1rem 0;
-  }
-}
+//   ul {
+//     margin: 1rem 0;
+//   }
+// }
 
-.sso-warning {
-  color: #f7c100;
-  padding-right: rem-calc(15);
-}
+// .sso-warning {
+//   color: #f7c100;
+//   padding-right: rem-calc(15);
+// }
 
-.toaster-warning-style {
-  color: #f7c100;
-}
+// .toaster-warning-style {
+//   color: #f7c100;
+// }
 
-.final-SSO {
-  @include vr-spacing(mt, 2);
+// .final-SSO {
+//   @include vr-spacing(mt, 2);
 
-  .finalSSO {
-    text-align: left;
+//   .finalSSO {
+//     text-align: left;
 
-    fieldset {
-      @include vr-spacing(ml, 7);
-    }
-  }
-}
+//     fieldset {
+//       @include vr-spacing(ml, 7);
+//     }
+//   }
+// }

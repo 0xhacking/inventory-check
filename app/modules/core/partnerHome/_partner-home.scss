@@ -1,107 +1,107 @@
-@import 'styles/toolkit/layout';
-@import 'styles/toolkit/spacing';
+// @import 'styles/toolkit/layout';
+// @import 'styles/toolkit/spacing';
 
-/*** PARTNERS ***/
+// /*** PARTNERS ***/
 
-.partner-container {
-  @extend %card-container-padding;
+// .partner-container {
+//   @extend %card-container-padding;
 
-  .tab-content {
-    border-color: $gray-light-2;
-  }
+//   .tab-content {
+//     border-color: $gray-light-2;
+//   }
 
-  .tab-reports {
-    @include vr-spacing(mb, 0.5);
-  }
+//   .tab-reports {
+//     @include vr-spacing(mb, 0.5);
+//   }
 
-  .tabcontainer {
-    background-color: $gray-light-4;
-  }
+//   .tabcontainer {
+//     background-color: $gray-light-4;
+//   }
 
-  .report {
-    height: 250px;
-  }
+//   .report {
+//     height: 250px;
+//   }
 
-  .report + .report-status {
-    text-align: center;
-    width: 100%;
-    position: relative;
-    bottom: 125px;
-    float: left;
-  }
+//   .report + .report-status {
+//     text-align: center;
+//     width: 100%;
+//     position: relative;
+//     bottom: 125px;
+//     float: left;
+//   }
 
-  .large section {
-    padding: 0 1.5rem;
+//   .large section {
+//     padding: 0 1.5rem;
 
-    .onboarded {
-      border: 1px solid $gray-light-2;
-    }
+//     .onboarded {
+//       border: 1px solid $gray-light-2;
+//     }
 
-    .largetabs {
-      padding: 0;
-    }
-  }
+//     .largetabs {
+//       padding: 0;
+//     }
+//   }
 
-  section.onboarded {
-    margin-bottom: rem-calc(24);
-  }
+//   section.onboarded {
+//     margin-bottom: rem-calc(24);
+//   }
 
-  .cstabs > li {
-    > a {
-      @include vr-spacing(pt, 1, 2px);
+//   .cstabs > li {
+//     > a {
+//       @include vr-spacing(pt, 1, 2px);
 
-      border-color: $gray-light-2;
-      color: $gray-light-1;
+//       border-color: $gray-light-2;
+//       color: $gray-light-1;
 
-      [class*='ng-'] {
-        .total {
-          @include vr-spacing(pt, 0.5);
-        }
-      }
-    }
+//       [class*='ng-'] {
+//         .total {
+//           @include vr-spacing(pt, 0.5);
+//         }
+//       }
+//     }
 
-    &.active > a {
-      color: $gray-dark-1;
+//     &.active > a {
+//       color: $gray-dark-1;
 
-      &:hover {
-        border-color: $gray-light-2;
-      }
-    }
-  }
+//       &:hover {
+//         border-color: $gray-light-2;
+//       }
+//     }
+//   }
 
-  #entitlementTitle {
-    margin-left: 60px;
-    font-size: 14px;
-    margin-top: 2rem;
-    margin-right: 1.5rem;
-    display: flex;
-    align-items: baseline;
-    justify-content: flex-end;
-    line-height: 1;
+//   #entitlementTitle {
+//     margin-left: 60px;
+//     font-size: 14px;
+//     margin-top: 2rem;
+//     margin-right: 1.5rem;
+//     display: flex;
+//     align-items: baseline;
+//     justify-content: flex-end;
+//     line-height: 1;
 
-    span {
-      font-size: inherit;
-    }
+//     span {
+//       font-size: inherit;
+//     }
 
-    span.total {
-      font-size: 20px;
-      padding-left: 8px;
-    }
-  }
+//     span.total {
+//       font-size: 20px;
+//       padding-left: 8px;
+//     }
+//   }
 
-  .tab-reports .nav-tabs li .total {
-    font-size: 24px;
-  }
+//   .tab-reports .nav-tabs li .total {
+//     font-size: 24px;
+//   }
 
-  .report-status-partner {
-    height: 0;
-  }
+//   .report-status-partner {
+//     height: 0;
+//   }
 
-  #customerDropdown {
-    width: rem-calc(250);
+//   #customerDropdown {
+//     width: rem-calc(250);
 
-    .select-options {
-      padding: 0;
-    }
-  }
-}
+//     .select-options {
+//       padding: 0;
+//     }
+//   }
+// }

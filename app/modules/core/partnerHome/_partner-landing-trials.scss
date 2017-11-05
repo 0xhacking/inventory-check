@@ -1,93 +1,93 @@
-@import 'styles/toolkit/spacing';
-@import 'styles/toolkit/colors';
+// @import 'styles/toolkit/spacing';
+// @import 'styles/toolkit/colors';
 
-.trialsPanel {
-  padding: 15px;
-  background-color: $brand-white;
-  border-color: $list-group-border;
-  border-width: 1px;
+// .trialsPanel {
+//   padding: 15px;
+//   background-color: $brand-white;
+//   border-color: $list-group-border;
+//   border-width: 1px;
 
-  .trial {
-    margin-bottom: 0.5rem;
-  }
-}
+//   .trial {
+//     margin-bottom: 0.5rem;
+//   }
+// }
 
-.trials-refresh {
-  left: 50%;
-  position: relative;
-}
+// .trials-refresh {
+//   left: 50%;
+//   position: relative;
+// }
 
-.trialHeader {
-  @include vr-spacing(pb, 0.25);
+// .trialHeader {
+//   @include vr-spacing(pb, 0.25);
 
-  display: flex;
-  align-items: flex-end;
+//   display: flex;
+//   align-items: flex-end;
 
-  > span {
-    color: $gray-dark-2;
-    line-height: inherit;
+//   > span {
+//     color: $gray-dark-2;
+//     line-height: inherit;
 
-    ~ span {
-      text-align: center;
-    }
-  }
-}
+//     ~ span {
+//       text-align: center;
+//     }
+//   }
+// }
 
-.trialRow {
-  display: flex;
-  align-items: center;
-}
+// .trialRow {
+//   display: flex;
+//   align-items: center;
+// }
 
-.trial-danger-text {
-  color: $brand-danger;
-}
+// .trial-danger-text {
+//   color: $brand-danger;
+// }
 
-.expiredTrials {
-  @include vr-spacing(pt, 2);
-  @include vr-spacing(pb, 0.5);
-}
+// .expiredTrials {
+//   @include vr-spacing(pt, 2);
+//   @include vr-spacing(pb, 0.5);
+// }
 
-.viewAll {
-  @include vr-spacing(pt, 0.5);
-}
+// .viewAll {
+//   @include vr-spacing(pt, 0.5);
+// }
 
-.trialTitle {
-  @include vr-spacing(mb, 1);
+// .trialTitle {
+//   @include vr-spacing(mb, 1);
 
-  font-family: $brand-font-cisco-TT-Extra-Light;
-  color: $top-bar-inverse-link-disabled-color;
-}
+//   font-family: $brand-font-cisco-TT-Extra-Light;
+//   color: $top-bar-inverse-link-disabled-color;
+// }
 
-.userTitle {
-  @include vr-spacing(mb, 0.75);
-}
+// .userTitle {
+//   @include vr-spacing(mb, 0.75);
+// }
 
-.expired {
-  color: $btn-link-disabled-color;
-  text-align: center;
-}
+// .expired {
+//   color: $btn-link-disabled-color;
+//   text-align: center;
+// }
 
-.trialCustomer {
-  color: $brand-primary;
-  text-align: left;
-  margin-bottom: -0.75rem;
-}
+// .trialCustomer {
+//   color: $brand-primary;
+//   text-align: left;
+//   margin-bottom: -0.75rem;
+// }
 
-.trialLicense {
-  color: $gray-base;
-  text-align: center;
-  padding-top: 0px;
-}
+// .trialLicense {
+//   color: $gray-base;
+//   text-align: center;
+//   padding-top: 0px;
+// }
 
-.trialDays {
-  color: $gray-base;
-  text-align: center;
-}
+// .trialDays {
+//   color: $gray-base;
+//   text-align: center;
+// }
 
-.trialbar {
-  height: 6px;
-}
+// .trialbar {
+//   height: 6px;
+// }
 
-.trials-card {
-  min-height: rem-calc(440);
-}
+// .trials-card {
+//   min-height: rem-calc(440);
+// }

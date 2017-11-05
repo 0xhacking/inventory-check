@@ -1,6 +1,5 @@
 import { PgSetupAssistantComponent } from './pgSetupAssistant.component';
 
-import pagingGroupService from '../../pagingGroup';
 import pgName from './pgName';
 import pgNumber from './pgNumber';
 import pgMember from './pgMember';
@@ -12,8 +11,7 @@ export default angular
     'pascalprecht.translate',
     pgName,
     pgNumber,
-    pgMember,
-    pagingGroupService,
+    pgMember
   ])
   .component('pgSetupAssistant', new PgSetupAssistantComponent())
   .name;

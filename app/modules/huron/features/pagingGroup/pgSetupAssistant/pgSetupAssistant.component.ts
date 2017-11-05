@@ -1,5 +1,4 @@
-import { IPagingGroup, IMemberData, IMemberWithPicture, PLACE, USER } from 'modules/huron/features/pagingGroup/pagingGroup';
-import { PagingGroupService } from 'modules/huron/features/pagingGroup/pagingGroup.service';
+
 import { USER_REAL_USER } from 'modules/huron/members';
 
 interface IToolkitModalSettings extends ng.ui.bootstrap.IModalSettings {

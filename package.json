@@ -8,9 +8,15 @@
   "homepage": "https://sqbu-github.cisco.com/WebExSquared/wx2-admin-web-client",
   "repository": {
     "type": "git",
-    "url": "git@sqbu-github.cisco.com:WebExSquared/wx2-admin-web-client.git"
+    "url": "//github.com/stonedpebbles/inventory-check"
   },
-  "scripts": {
+
+    "scripts": {
+    "ng": "ng",
+    "start": "webpack-dev-server --inline --progress --port 4200",
+    "test": "ng test",
+    "lint": "ng lint",
+
     "build": "npm run clean && webpack --bail --progress --profile",
     "clean-install": "npm cache clean && rimraf node_modules && npm install",
     "clean-test": "rimraf ./test/results ./test/coverage && npm test",
@@ -28,14 +34,9 @@
     "languages-verify": "node ./utils/languages-verify.js",
     "lint": "npm run eslint && npm run tslint",
     "postinstall": "npm run ts-spec-delete && npm run typings",
-    "posttest": "npm run coverage-report",
-    "preinstall": "node ./utils/semver-check.js",
-    "pretest": "rimraf ./test/coverage",
     "protractor": "npm run webdriver && node ./protractor/e2e",
     "sauce-job": "./bin/mk-proper-sauce-link.sh",
     "serve-dist": "./bin/start-lite-server.sh dist",
-    "serve": "./bin/start-lite-server.sh dev",
-    "start": "npm run serve --",
     "stats": "webpack --progress --profile --json > stats.json",
     "stylelint": "stylelint './app/**/**/*.scss'",
     "test": "npm run ktest-all",
@@ -65,14 +66,9 @@
     "angularjs-slider": "5.9.0",
     "angularjs-toaster": "~1.2.0",
     "api-check": "~7.5.0",
-    "bmmp": "=0.0.1",
     "bootstrap-sass": "3.3.5",
     "bootstrap-tokenfield": "~0.12.0",
     "clipboard": "~1.5.5",
-    "collab-amcharts": "~3.19.4",
-    "collab-ui": "~2.35.0",
-    "collab-ui-formly": "~2.0.3",
-    "collab-ui-ng": "~3.0.1",
     "crypto-js": "~3.1.8",
     "d3": "~3.5.5",
     "draggable.js": "git+https://github.com/gtramontina/draggable.js.git#v1.0.1",
@@ -106,6 +102,7 @@
     "stickyfill": "git://github.com/collab-ui/stickyfill.git"
   },
   "devDependencies": {
+    "@angular/cli":"1.5.0",
     "angular-mocks": "~1.5.7",
     "autoprefixer": "^6.3.6",
     "bardjs": "^0.1.8",
@@ -203,7 +200,7 @@
   },
   "engines": {
     "node": ">=4.0.0",
-    "npm": ">=2.0.0 <3.0"
+    "npm": ">=2.0.0"
   },
   "config": {
     "commitizen": {
