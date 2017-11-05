@@ -1,4 +1,4 @@
-# Atlas Contribution Guide
+# Inventory check Contribution Guide
 
 ## About
 
